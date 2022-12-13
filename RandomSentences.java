@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Random;
 
 public class RandomSentences {
@@ -9,6 +11,13 @@ public class RandomSentences {
         String[] nouns = {"stones", "cake", "apple", "laptop", "bikes"};
         String[] adverbs = {"slowly", "diligently", "warmly", "sadly", "rapidly"};
         String[] details = {"near the river", "at home", "in the park"};
+
+        System.out.println("Hello world");
+
+        System.out.println("Hello world");
+        System.out.println("Hello world");
+        System.out.println("Hello world");
+        System.out.println("Hello world");
 
         System.out.println("Hello, this is your first random-generated sentence:");
 
@@ -33,4 +42,5 @@ public class RandomSentences {
         String word = words[randomIndex];
         return word;
     }
+
 }
